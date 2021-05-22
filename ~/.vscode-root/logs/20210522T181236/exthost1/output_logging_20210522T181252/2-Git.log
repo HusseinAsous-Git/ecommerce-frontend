@@ -1,0 +1,62 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/husseinasoos/Documents/ecommerce-frontend
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :.travis.yml
+> git ls-files --stage -- /home/husseinasoos/Documents/ecommerce-frontend/.travis.yml
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Dockerfile.save
+> git ls-files --stage -- /home/husseinasoos/Documents/ecommerce-frontend/Dockerfile.save
+> git cat-file -s 9f751165dd8ac7e05d26a1f777c81d3e8b2780c4
+> git show --textconv :Dockerfile
+> git ls-files --stage -- /home/husseinasoos/Documents/ecommerce-frontend/Dockerfile
+> git cat-file -s 9828466bbe90c06c7297fb4821c561575b002416
+> git show --textconv :Dockerfile.save
+> git ls-files --stage -- /home/husseinasoos/Documents/ecommerce-frontend/Dockerfile.save
+> git cat-file -s 9f751165dd8ac7e05d26a1f777c81d3e8b2780c4
+> git show --textconv :Dockerfile.dev
+> git ls-files --stage -- /home/husseinasoos/Documents/ecommerce-frontend/Dockerfile.dev
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Dockerfile
+> git ls-files --stage -- /home/husseinasoos/Documents/ecommerce-frontend/Dockerfile
+> git cat-file -s 9828466bbe90c06c7297fb4821c561575b002416
+> git show --textconv :Dockerfile.dev
+> git ls-files --stage -- /home/husseinasoos/Documents/ecommerce-frontend/Dockerfile.dev
+> git show --textconv :Dockerfile
+> git ls-files --stage -- /home/husseinasoos/Documents/ecommerce-frontend/Dockerfile
+> git cat-file -s 9828466bbe90c06c7297fb4821c561575b002416
+> git show --textconv :Dockerfile.dev
+> git ls-files --stage -- /home/husseinasoos/Documents/ecommerce-frontend/Dockerfile.dev
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :.travis.yml
+> git ls-files --stage -- /home/husseinasoos/Documents/ecommerce-frontend/.travis.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
