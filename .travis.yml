@@ -4,4 +4,4 @@ services:
 before_install:
   - docker build -t husseinasoos/ecommerce -f Dockerfile.dev .
 scripts:
-  - docker run husseinasoos/ecommerce npm run test -- --coverage
+  - docker run husseinasoos/ecommerce npm run test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
